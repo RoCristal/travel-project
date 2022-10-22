@@ -1,0 +1,21 @@
+body {
+  font-family: 'Montserrat';
+  color: red;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1400px;
+  margin: 10px;
+}
+.hero {
+  border: 1px solid lightgrey;
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("../images/francisco-ghisletti-_yo28TDZFNo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;  
+}
