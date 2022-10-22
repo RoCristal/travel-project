@@ -1,24 +1,36 @@
 body {
-  font-family: 'Montserrat';
-  color: red;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;  
 }
 .container{
   max-width: 1400px;
-  margin: 10px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 .hero {
-  border: 1px solid lightgrey;
-  padding: 60px 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
-    url("../images/francisco-ghisletti-_yo28TDZFNo-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;  
+  color: rgb(255, 255, 255);
+    background-image:
+      url("../images/francisco-ghisletti-_yo28TDZFNo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+  
 }
+ header h1 {
+   font-size: 64px;
+ }
+
+ header h2 {
+   font-size: 40px;
+ }
+
+ header h3 {
+   font-size: 24px;
+ }
 header a {
   font-weight: 700;
   font-size: 14px;
@@ -30,4 +42,53 @@ header a {
   display: inline-block;
   text-transform: uppercase;
   background: white;
+}
+footer{
+  color: rgb(255, 255, 255);
+  background-image:
+      url("../images/patricio-asc-n90E-C7agK4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+footer p {
+  opacity: 0.9;
+  line-height: 24px;
+  margin-right: 20px;
+}
+section {
+  margin: 20px;
+  padding: 30px;
+}
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+
+
+@media (max-width:900px){
+  .hero{
+    padding: 60px 0;
+  }
+  header h1{
+    font-size: 48px;
+  }
+  header h2{
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid{
+    grid-template-columns: 1fr
+  }
+  footer {
+    padding: 20px;
+  }
+
 }
