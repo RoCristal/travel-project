@@ -53,8 +53,12 @@ header a {
 }
 
 .img-responsive {
-  max-width: 100%;
- display: block;
+  width: 100%;
+}
+
+.thumbnail{
+height: 100%;
+object-fit: cover;
 }
 .grid-2-columns{
   grid-template-columns: 1fr 1fr;
@@ -93,6 +97,10 @@ main p {
 }
 .card-header.grid {
   grid-gap: 0;
+}
+.embed{
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 .card-body {
   padding: 0 30px 30px;
@@ -225,6 +233,13 @@ footer a {
       font-weight: 400;
       line-height: 1.5;
       opacity: 0.7;
+    }
+
+    .card-header img{
+      display: none;
+    }
+    .embed{
+      aspect-ratio: 16 / 9;
     }
 
 }
