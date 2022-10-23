@@ -197,10 +197,10 @@ footer a {
     max-width: 50%;
   }
   header h1{
-    font-size: 18px;
+    font-size: 20px;
   }
   header h2{
-    font-size: 12px;
+    font-size: 18px;
   }
   header h3 {
     font-size: 12px;
@@ -223,7 +223,7 @@ footer a {
     font-size: 12px;
   }
     main h2 {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 1.5;
       margin: 0;
       text-transform: uppercase;
@@ -248,4 +248,23 @@ footer a {
       aspect-ratio: 16 / 9;
     }
 
+    h4 {
+      font-size: 16px;
+    }
+    .card-body{
+      padding: 0 15px 15px;
+    }
+    .card-body p{
+      font-size: 12px;
+    }
+    .card-footer{
+     padding: 0 15px 15px;
+    }
+    .card-footer a{
+      font-size: 12px;
+      padding: 5px;
+      max-width: 50%;
+      display: block;
+      margin: 0 auto;
+   }
 }
